@@ -162,5 +162,5 @@ with open(file_log, "w") as f_log:
     f_log.write('Acceptance ratio = '+ str(na/Nc)+'\n')
     f_log.write('Cov. of the measurement R = \n')
     f_log.write(str(R)+'\n')
-    f_log.write('Cov. of initial estimation error P = \n')
+    f_log.write('Cov. of initial estimation error P0 = \n')
     f_log.write(str(P0)+'\n')
